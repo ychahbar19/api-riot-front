@@ -2,9 +2,11 @@
   "name": "api-riot-front",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/ychahbar19/api-riot-front/issues"
   },
-  "homepage": "https://github.com/ychahbar19/api-riot-front#readme"
+  "homepage": "https://github.com/ychahbar19/api-riot-front#readme",
+  "private": true,
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.8"
+  }
 }
